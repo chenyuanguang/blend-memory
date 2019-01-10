@@ -1,6 +1,6 @@
-<div align="center">
+<!-- <div align="center">
   <img width="300" heigth="300" src="/assets/blend-memory-logo.png" alt="blend-memory logo">
-</div>
+</div> -->
 
 
 # blend-memory
