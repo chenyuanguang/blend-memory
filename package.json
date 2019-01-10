@@ -1,0 +1,29 @@
+{
+  "name": "blend-memory",
+  "version": "1.0.4",
+  "description": "A memory monitor and dashboard for Node.js application on development.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenyuanguang/blend-memory.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- test/bootstarp.js test/unit/*.test.js"
+  },
+  "keywords": [
+    "memory",
+    "monitor",
+    "dashboard"
+  ],
+  "author": "chenyuanguang(chenyuanguang.cn)",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "istanbul": "^0.4.5",
+    "should": "^11.2.0"
+  }
+}
